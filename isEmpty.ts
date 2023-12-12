@@ -1,5 +1,5 @@
 // this function will check all types of datatypes
-export function isEmpty(value) {
+export function isEmpty(value): boolean {
     return (
         value === undefined ||
         value === null ||
